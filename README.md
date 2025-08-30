@@ -2,28 +2,29 @@
 
 ## 1. Introduction & Objective
 
-Old banking security models don’t work anymore.
-Hackers are faster and more sophisticated.
-Zero-Trust Digital Banking is the answer. 
+- Old banking security models don’t work anymore.
+- Hackers are faster and more sophisticated.
+- Zero-Trust Digital Banking is the answer. 
 [1](https://cloudsecurityalliance.org/blog/2023/09/27/putting-zero-trust-architecture-into-financial-institutions) 
 [2](https://www.pingidentity.com/en/resources/blog/post/zero-trust-financial-services.html) 
 [3](https://www.zeta.tech/us/resources/blog/revolutionizing-banking-security-with-zero-trust-architecture/)
 
 Everyone knows that, but the real problem is that just throwing around 'Zero trust' does not work, we need some real work done in the AI + Banking sector- and that can only be achieved when we combine the following points:
 
-1. We need **Data that matters.** Not just a pile of logins, but rich signals: device fingerprints, session behavior.\
+1. We need **Data that matters.** Not just a pile of logins, but rich signals: device fingerprints, session behavior.
 
 2. We need **Multiple smaller AI models** handling different jobs at once to achieve speed.
 
 3. We need a **Suspicion scale** where we plot multiple levels of suspicion. Right now, fraud checks are binary either you’re fine or you’re blocked. We need a system where suspicion is in levels.
 - Level 1 suspicion = Customer can enter a few more OTPs and can log into their account. 
-- Level 10 suspicion = The account is frozen for the time being and customer is contacted. 
+- Level 10 suspicion = The account is frozen for the time being and customer is contacted.  
+  
 This stratergy resolves the problem of **False positives.**
 
 ---
 
 ### Mission:
-**Catch fraud in real time.**
+**Catch fraud in real time.**  
 We’re turning stale Risk based authentication data into rich, streaming signals—combining identity, session, and device intelligence to spot account takeovers as they happen. The system adapts on the fly, blocking real threats instantly while keeping customers moving.
 [4](https://www.feedzai.com/blog/the-comprehensive-guide-to-account-takeover-fraud-prevention-and-detection/) 
 [5](https://vlinkinfo.com/blog/real-time-fraud-detection-agent) 
