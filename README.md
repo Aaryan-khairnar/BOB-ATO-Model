@@ -85,7 +85,7 @@ The goal isn’t to use every algorithm, but to iterate: start with proven super
 [17](https://unit8.com/resources/a-guide-to-building-a-financial-transaction-anomaly-detector/) 
 [18](https://milvus.io/ai-quick-reference/how-does-anomaly-detection-support-fraud-prevention-in-banking)
 
-#### Real-Time/Streaming Inference
+#### Real-Time/Streaming Inference (When model is deployed in its final stages)
 
 Models will be trained and deployed as REST or gRPC microservices, built for real-time predictions. A streaming backbone (Kafka, Flink, etc.) will drive the system, so events are processed the moment they happen rather than in delayed batches.
 
