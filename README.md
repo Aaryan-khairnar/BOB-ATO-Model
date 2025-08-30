@@ -85,10 +85,6 @@ The goal isn’t to use every algorithm, but to iterate: start with proven super
 [17](https://unit8.com/resources/a-guide-to-building-a-financial-transaction-anomaly-detector/) 
 [18](https://milvus.io/ai-quick-reference/how-does-anomaly-detection-support-fraud-prevention-in-banking)
 
-#### Real-Time/Streaming Inference (When model is deployed in its final stages)
-
-Models will be trained and deployed as REST or gRPC microservices, built for real-time predictions. A streaming backbone (Kafka, Flink, etc.) will drive the system, so events are processed the moment they happen rather than in delayed batches.
-
 #### Continuous Trust Evaluation (Zero-Trust Core)
 
 Instead of granting a long-lived “session pass,” every action gets re-evaluated in real time:
@@ -101,7 +97,7 @@ Instead of granting a long-lived “session pass,” every action gets re-evalua
 
 #### How does the model justify itself?
 
-Fraud analysts and compliance teams need clear reasons behind every flagged session—whether it’s a device change, abnormal geo-velocity, or unusual session behavior. We’ll integrate explainability tools (e.g., SHAP, LIME) to surface both feature importance and per-instance reasoning, ensuring regulatory transparency and analyst trust.
+Fraud analysts and compliance teams need clear reasons behind every flagged session—whether it’s a device change, abnormal geo-velocity, or unusual session behavior. Integrating explainability tools (e.g., SHAP, LIME) will surface both feature importance and per-instance reasoning, ensuring regulatory transparency and analyst trust.
 [19](https://jisem-journal.com/index.php/journal/article/view/3917) 
 [20](https://journalwjarr.com/sites/default/files/fulltext_pdf/WJARR-2025-0492.pdf) 
 [21](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285281)
@@ -136,7 +132,6 @@ Fraud analysts and compliance teams need clear reasons behind every flagged sess
 - Synthetic Fraud Scenarios – Replay credential stuffing, phishing, or botnet attacks to stress-test models.
 - Continuous Trust Tokens – Assign decaying trust scores that erode unless reinforced by normal behavior.
 - Graph Anomaly Detection – Expose fraud rings by mapping accounts, devices, and IPs as a living network.
-- Deception Traps – Seed honeypot elements (fake buttons, hidden flows) to lure and catch probing attackers.
 
 ---
 
